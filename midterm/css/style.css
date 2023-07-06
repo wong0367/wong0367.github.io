@@ -51,13 +51,15 @@ body {
 	line-height: 1.5;
 }
 
-.header-wrap{
+/*Adding wrapper for the webpage*/
+
+.header-wrap {
 	width: 63%;
 	margin:0 auto;
 	background-color: #cbc0b2;
 }
 
-.main-footer-wrap{
+.main-footer-wrap {
 	width: 63%;
 	margin:0 auto;
 	background-color: #cbc0b2;
@@ -65,12 +67,14 @@ body {
 	box-sizing: border-box; 
 }
 
-.banner{
+/*Stylying Banner and H1* and make it responsive*/
+
+.banner {
 	position: relative;
 }
 
 
-h1{
+h1 {
 	font-family: 'Rozha One', serif;
 	font-size: 3rem;
 	display: inline-block;
@@ -87,6 +91,8 @@ h1{
 	text-overflow: ellipsis;
 }
 
+/* apply different styles to the h1 element based on the width of the viewport*/
+
 @media (max-width: 768px) {
 	h1 {
 		font-size: 2rem;
@@ -100,7 +106,7 @@ h1{
 	}
 
 
-.banner img{
+.banner img {
 	width: 100%;
 	height: 300px;
 	display: block;
@@ -109,7 +115,9 @@ h1{
 	margin: auto;
 }
 
-.navigation{
+/*Styling Navigation Menu*/
+
+.navigation {
 	display: flex;
 	justify-content: space-between;	
 	list-style: none;
@@ -117,7 +125,7 @@ h1{
 
 }
 
-.navigation li{
+.navigation li {
 	flex: 1;
 	text-align: center;
 }
@@ -141,25 +149,26 @@ li .nav-item {
 	color: #cbc0b2;
 }
 
+/*styling Main story*/
 
-h2{
+h2 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.5rem;
 	padding-bottom: 10px;
 }
 
-b {
+p {
 	font-weight: 900;}
 
 
-#story img{
+#story img {
 	float: left;
 	margin-right: 8px;
 	box-sizing: border-box;
 	object-fit: cover;
 }
 
-hr{
+hr {
 	border: none;
 }
 
@@ -167,52 +176,54 @@ hr{
 	font-style: italic;
 }
 
-.cite a{
+.cite a {
 	display: inline-block;
 	word-break: break-all;
 }
 
-.fav-restaurant{
+.fav-restaurant {
 	list-style: disc;
 	padding-left: 20px;
 	line-height: 1;
 }
 
-.form{
+/*styling form*/
+
+.form {
 	border: #3F2404 solid 1px;
 	padding: 10px;
 }
 
-.personal-info label{
+.personal-info label {
 	display: block;
 	padding: 5px;
 }
 
-#name{
+#name {
 	width: 100%;
   	margin: 0;
   	box-sizing: border-box;
 }
 
-#email{
+#email {
 	width: 100%;
   	margin: 0;
   	box-sizing: border-box;
 }
 
-#message{
+#message {
 	width: 100%;
   	margin: 0;
 	padding: 20px;
   	box-sizing: border-box;
 }
 
-h3{
+h3 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 1rem;
 }
 
-.visit-again label{
+.visit-again label {
 	padding: 5px;
 }
 
@@ -232,6 +243,8 @@ h3{
 	background-color: #3F2404;
 	color: #cbc0b2;
 }
+
+/*styling footer*/
 
 body footer {
 	text-align: right;
